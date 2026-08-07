@@ -1,8 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card';
 
 export default function CounterStats({ count }) {
-  const status = count > 0 ? '📈 Positive' : count < 0 ? '📉 Negative' : '➡️ Neutral';
-  const type = count % 2 === 0 ? '🔢 Even' : '🔤 Odd';
+  const status = count > 0 ? 'Positive +' : count < 0 ? 'Negative -' : 'Zero';
+  const type = count % 2 === 0 ? 'Even' : 'Odd';
 
   return (
     <Card className="bg-white border-gray-200 shadow-sm">
