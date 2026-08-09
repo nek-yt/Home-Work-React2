@@ -9,14 +9,7 @@ export const useJobStore = create((set) => ({
 
   addUI: (job) =>
     set((state) => ({
-      jobs: [
-        ...state.jobs,
-        {
-          ...job,
-          id: Date.now(),
-          createdAt: new Date(),
-        },
-      ],
+      jobs: [...state.jobs, { ...job, id: Date.now(), createdAt: new Date(),},],
     })),
 
   editUI: (id, updates) =>

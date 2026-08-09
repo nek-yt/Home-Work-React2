@@ -207,8 +207,8 @@ export default function PractiveAppDay7() {
 
         {filteredJobs.length === 0 ? (
           <div className="bg-white rounded-xl border border-dashed border-slate-300 p-12 text-center shadow-xs">
-            <p className="text-sm font-medium text-slate-500">No team members match your criteria</p>
-            <p className="text-xs text-slate-400 mt-1">Try tweaking your search term</p>
+            <p className="text-sm font-medium text-slate-500">No User has found out !</p>
+            <p className="text-xs text-slate-400 mt-1">Try to add somthing !</p>
           </div>
         ) : (
           <div className="space-y-2">
