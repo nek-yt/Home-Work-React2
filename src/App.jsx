@@ -12,7 +12,7 @@ import Jotai from './Redux - Zustand - Jotai/Jotai/MainJotai'
 export default function App() {
   return (
     <div>
-      <JotaiAtom />
+      <JotaiAsync />
     </div>
   )
 }
