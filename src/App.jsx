@@ -1,11 +1,10 @@
-import React from 'react'
-import Exam from './ExamWeek2/MainApp'
-import Main from './Practice/Main'
+import TodoWorkspace from './Redux - Jotai - Formik (async)/TodoWorkspace'
+import Practice from './PracticeWithReduxJotaiFormik/MainTodoSection'
+import PracticeHooks from './ReactHookw/Mainhooks'
+
 
 export default function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <TodoWorkspace />
   )
 }
