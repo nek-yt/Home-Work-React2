@@ -5,6 +5,6 @@ import PracticeHooks from './ReactHookw/Mainhooks'
 
 export default function App() {
   return (
-    <TodoWorkspace />
+    <PracticeHooks />
   )
 }
